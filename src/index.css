@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  direction: rtl;
+  font-family: 'vazir';
+}
+.wrapper{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.wrapper h1{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.wrapper p {
+  margin-top: 7px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper .main{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.main .form-container{
+  width: 500px;
+  height: 340px;
+  background: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.main .view-container{
+  background: #e4e4e4;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.form-container button {
+  width: 100%;
+}
+.view-container .delete-btn{
+  color: crimson;
+  cursor: pointer;
+}
+.view-container tbody{
+  margin-top: 20px;
+}
+
+
